@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
+import About from "./about";
+import Contact from "./contact";
+import Projects from "./projects";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -26,19 +29,22 @@ function Header() {
           <Link to="/" onClick={toggleSideBar}>
             <li>Home</li>
           </Link>
-          <Link to="/about" onClick={toggleSideBar}>
+          <Link to="about" onClick={toggleSideBar}>
             <li>About</li>
           </Link>
-          <Link to="/projects" onClick={toggleSideBar}>
+          <Link to="projects" onClick={toggleSideBar}>
             <li>Projects</li>
           </Link>
-          <Link to="/contact" onClick={toggleSideBar}>
+          <Link to="contact" onClick={toggleSideBar}>
             <li>Contact</li>
           </Link>
         </ul>
       </nav>
     </header>
 <Outlet/>
+<Projects />
+<About/>
+<Contact/>
     </div>
   );
 }

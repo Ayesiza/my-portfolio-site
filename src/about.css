@@ -1,10 +1,10 @@
 .about-container {
-    min-height: 90vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f0f0f0;
+    background: #393939;
   }
   
   .about {
@@ -14,11 +14,11 @@
     align-items: center;
     margin: 1rem;
     padding: 2rem;
-    /* background: rgba(255, 255, 255, 0.5); */
-    line-height: 1.5;
+    
   }
   
   .about h1 {
+      margin: 0;
   }
   
   
@@ -29,20 +29,24 @@
     background-size: cover;
     margin: 1.5rem 0;
   }
+  /* .para{
+    width: 50%;
+  } */
   
   .about p {
+    
     letter-spacing: 1px;
     line-height: 1.5;
     font-family: "PT Sans", sans-serif;
-    /* font-family: 'Ubuntu', sans-serif; */
-    text-align: justify;
+    text-align:start;
     font-size: 1.1rem;
+    color: white;
   }
   
   .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: ju;
     /* flex-direction: column; */
   }
   

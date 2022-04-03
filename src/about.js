@@ -12,10 +12,12 @@ function About() {
   const imagePath = "url(" + require("./images/profile3.jpg") + ")";
   return (
     <div className="about-container">
+     
       <div className="about">
+      <h1>About Me:</h1>
         <div className="image" style={{ backgroundImage: imagePath }} />
-        <h1>About:</h1>
-        <div className="paragraph">
+        
+        <div className="para" >
         <p>
           I am Software Engineer, with three years of experience in website and
           software development. I am technically proficient, easy to work with

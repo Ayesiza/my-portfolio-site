@@ -4,37 +4,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: gray; */
-    /* color: white; */
-    background: #f0f0f0;
+    background: #393939;
+  }
+  h1, h4{
+    color: White;
   }
   
   .image {
     width: 230px;
     height: 230px;
-    /* background-image: url(require("./profile2.jpg")); */
-    /* background-image: 'url(' + require('./profile2.jpg') + ')'; */
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-    /* border:1px solid black; */
     box-shadow: 0px 0px 10px 1px gray;
     margin-bottom: 1.5rem;
   }
   
-  .hero h1 {
-    /* font-family: arial; */
-    /* text-transform: uppercase; */
-    margin-bottom: 0.5rem;
-    letter-spacing: 2px;
-  }
-  
-  .hero p {
-    letter-spacing: 5px;
-    font-family: "PT sans", sans-serif;
-    margin-bottom: 0.5rem;
-  }
-  
+ 
   .social-media {
     display: flex;
     justify-content: center;

@@ -1,76 +1,54 @@
-import React from "react";
-import "./projects.css";
+import React from 'react'
+import './projects.css'
+import { projects } from './data'
 
-function Projects() {
+const Projects = () => {
   return (
-    <div className="projects-container">
-      <h1>Projects</h1>
-      <div className="projects">
-        <div className="card">
-          <h2>1. Todo List</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
+      <div className='wrapper'>
+    <div className="album py-5 ">
+    <div className="container">
+    <h2 className="page-section-heading text-center text-uppercase text-light m-0 "> My Projects</h2>
+                
+                <div className="divider-custom mb-4">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                    <div className="divider-custom-line"></div>
+                </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {projects.map(project =>(
+        <div className="col" key={project.id}>
+          <div className="card shadow-sm">
+              <div className='p-2 p-browser' >
+              <div className="p-circle"></div>
+            <div className="p-circle"></div>
+            <div className="p-circle"></div>
+                </div>
+                <h4 className='projectTitle'>{project.title}</h4>
+          <img classNameName="img-fluid" src={project.image} alt="..." />
+            <div className="card-body ">
+              <p className="card-text">{project.description}</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                <a  href={project.source}><button  className="btn btn-sm btn-primary">Code</button></a>
+                <a  href={project.visit}> <button  className="btn btn-sm btn-secondary">Visit</button></a>
+                </div>
+                <small className="text-muted">{project.id}</small>
+              </div>
+            </div>
+          </div>
+          </div>
+           
+            ))}
+          </div>
+          </div>
+          </div>
 
-          <a href="https://04ojv.csb.app/">View Project</a>
+        
+        
+          
+    
         </div>
-        <div className="card">
-          <h2>2. Responsive Website</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <a href="https/aye">View Project</a>
-        </div>
-        <div className="card">
-          <h2>3. third Project</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <a href="https/aye">View Project</a>
-        </div>
-        <div className="card">
-          <h2>4. fourth Project</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <a href="https/aye">View Project</a>
-        </div>
-        <div className="card">
-          <h2>5. fifth Project</h2>
-          <a href="https://aye">View Project</a>
-        </div>
-      </div>
-    </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

@@ -31,24 +31,21 @@ const Home = () => {
   return (
     <div className="hero">
       <div className="image" style={{ backgroundImage: imagePath }} />
-      <h1>Md Furqaan</h1>
-      <p>| Front End Software Developer |</p>
+      <h1>Hi, I am</h1>
+      <h1>Ayesiza Hawah</h1>
+      <h4>| Front End Software Developer |</h4>
       <div className="social-media">
         <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          {/* <i className="fa fa-2x fa-instagram" /> */}
-          <FaInstagram className="icon" />
+          <FaInstagram className="icon" style={{color:"#FF5A09"}}  />
         </a>
         <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          {/* <i className="fa fa-2x fa-facebook" /> */}
-          <FaLinkedin className="icon" />
+          <FaLinkedin className="icon" style={{color:"#FF5A09"}}  />
         </a>
         <a href="https://github.com/Ayesiza">
-          {/* <i className="fa fa-2x fa-github" /> */}
-          <FaGithub className="icon" />
+          <FaGithub className="icon" style={{color:"#FF5A09"}}  />
         </a>
         <a href="https://twitter.com/hawayesiza">
-          {/* <i className="fa fa-2x fa-twitter" /> */}
-          <FaTwitter className="icon" />
+          <FaTwitter className="icon" style={{color:"#FF5A09"}} />
         </a>
       </div>
     </div>
