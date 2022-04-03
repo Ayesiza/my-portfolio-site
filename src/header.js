@@ -23,7 +23,7 @@ function Header() {
       <div style={{ height: "100vh"}}>
     <header>
       <FaBars onClick={toggleSideBar} className="bar" />
-      <div className="logo">Portfolio</div>
+      <div className="logo"><Link to="/">Portfolio</Link></div>
       <nav className={toggle ? "sidebar" : ""}>
         <ul>
           <Link to="/" onClick={toggleSideBar}>
