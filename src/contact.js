@@ -25,6 +25,7 @@ function Contact() {
                 <h1 className='c-title'>
                     Let' discuss your project
                 </h1>
+                
                 <div className='c-info'>
                     <div className='c-info-item'>
                       

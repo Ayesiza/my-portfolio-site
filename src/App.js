@@ -36,16 +36,16 @@ const Home = () => {
       <h4>| Front End Software Developer |</h4>
       <div className="social-media">
         <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          <FaInstagram className="icon" style={{color:"#FF5A09"}}  />
+          <FaInstagram className="icon" style={{color:"#DA9F11"}}  />
         </a>
         <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          <FaLinkedin className="icon" style={{color:"#FF5A09"}}  />
+          <FaLinkedin className="icon" style={{color:"#DA9F11"}}  />
         </a>
         <a href="https://github.com/Ayesiza">
-          <FaGithub className="icon" style={{color:"#FF5A09"}}  />
+          <FaGithub className="icon" style={{color:"#DA9F11"}}  />
         </a>
         <a href="https://twitter.com/hawayesiza">
-          <FaTwitter className="icon" style={{color:"#FF5A09"}} />
+          <FaTwitter className="icon" style={{color:"#DA9F11"}} />
         </a>
       </div>
     </div>

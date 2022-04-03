@@ -1,10 +1,11 @@
 .about-container {
-    min-height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #393939;
+   
   }
   
   .about {
@@ -20,7 +21,16 @@
   .about h1 {
       margin: 0;
   }
-  
+  .dowlod{
+    width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: 0px solid white;
+	background: White;
+  color: #393939;
+  font-weight: 600;
+	transition: 200ms;
+  }
   
   .skill-icon {
     width: 10vw;
@@ -53,4 +63,9 @@
   h1 {
     margin-bottom: 1rem;
   }
+  .para{
+    width: 70%;
+  }
+  
+    
   

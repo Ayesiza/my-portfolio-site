@@ -20,7 +20,7 @@ function Header() {
   };
 
   return (
-      <div>
+      <div style={{ height: "100vh"}}>
     <header>
       <FaBars onClick={toggleSideBar} className="bar" />
       <div className="logo">Portfolio</div>
