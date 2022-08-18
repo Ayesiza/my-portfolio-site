@@ -1,17 +1,17 @@
 import React from "react";
 import "./about.css";
-import { ReactComponent as IconReact } from "./images/react.svg";
+import { ReactComponent as IconReact } from "../../images/react.svg";
 
-import { ReactComponent as IconHtml } from "./images/html.svg";
+import { ReactComponent as IconHtml } from "../../images/html.svg";
 
-import { ReactComponent as IconCss } from "./images/css.svg";
+import { ReactComponent as IconCss } from "../../images/css.svg";
 
-import { ReactComponent as IconJs } from "./images/js.svg";
+import { ReactComponent as IconJs } from "../../images/js.svg";
 
-import { ReactComponent as IconNode } from "./images/nodejs-2.svg";
+import { ReactComponent as IconNode } from "../../images/nodejs-2.svg";
 
 function About() {
-  const imagePath = "url(" + require("./images/profile3.jpg") + ")";
+  const imagePath = "url(" + require("../../images/profile3.jpg") + ")";
   return (
     <div className="about-container">
      
