@@ -26,7 +26,7 @@ function About() {
           and I do not stop till its perfect. Ever since I got into the field I
           really enjoy software development , Especially front-end Sites.
           But I also have full knowlegde on nodejs.
-          I have created many  projects and I have solved real worldproblems. 
+          I have created many  projects and I have solved real world problems. 
         </p>
         </div>
         <a href="./images/Ayesizahawa-Resume.pdf" download > <button className="dowlod">Download Resume</button> </a>
