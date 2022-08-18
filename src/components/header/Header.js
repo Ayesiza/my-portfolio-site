@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
 import About from "../about/About";
 import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
 import Projects from "../projects/Projects";
 
 function Header() {
@@ -45,7 +46,9 @@ function Header() {
 <Projects />
 <About/>
 <Contact/>
+<Footer/>
     </div>
+   
   );
 }
 

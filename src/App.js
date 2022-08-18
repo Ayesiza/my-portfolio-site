@@ -8,6 +8,7 @@ import "./styles.css";
 import "./home.css";
 import "./aye_optimized.png";
 import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -20,8 +21,9 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
         </Route>
+        
       </Routes>
-
+      
     </div>
   );
 }

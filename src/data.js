@@ -30,7 +30,7 @@ export const projects = [
       title: 'Restaurant App',
       description: "The Restaurant app was can allow a user to search for different dishes and the ingredients used.",
       image: '/images/restaurant.png',
-      tags: ['Reactjs', 'CSS3', 'https://api.edamam.com'],
+      tags: ['Reactjs', 'CSS3', ],
       source: 'https://github.com/Ayesiza/restaurant-react',
       visit: 'https://github.com/Ayesiza/restaurant-react',
       id: 4,
