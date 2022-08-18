@@ -6,9 +6,8 @@ import Contact from "./components/contact/Contact";
 import Projects from "./components/projects/Projects";
 import "./styles.css";
 import "./home.css";
-import "./aye_optimized.png";
 import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
-import Footer from "./components/footer/Footer";
+
 
 export default function App() {
   return (
@@ -33,7 +32,7 @@ const Home = () => {
   return (
     <div className="hero">
       <div className="image" style={{ backgroundImage: imagePath }} />
-      <h1>Hi, I am</h1>
+      <h1>Hi, I'am</h1>
       <h1>Ayesiza Hawah</h1>
       <h4>| Software Developer |</h4>
       <div className="social-media">
