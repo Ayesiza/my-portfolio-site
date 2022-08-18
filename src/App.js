@@ -1,9 +1,9 @@
 import React from "react";
 import {  Route, Routes, } from "react-router-dom";
-import Header from "./header";
-import About from "./about";
-import Contact from "./contact";
-import Projects from "./projects";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Projects from "./components/projects/Projects";
 import "./styles.css";
 import "./home.css";
 import "./aye_optimized.png";
@@ -33,7 +33,7 @@ const Home = () => {
       <div className="image" style={{ backgroundImage: imagePath }} />
       <h1>Hi, I am</h1>
       <h1>Ayesiza Hawah</h1>
-      <h4>| Front End Software Developer |</h4>
+      <h4>| Software Developer |</h4>
       <div className="social-media">
         <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
           <FaInstagram className="icon" style={{color:"#DA9F11"}}  />

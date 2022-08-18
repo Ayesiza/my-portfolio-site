@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
-import About from "./about";
-import Contact from "./contact";
-import Projects from "./projects";
+import About from "../about/About";
+import Contact from "../contact/Contact";
+import Projects from "../projects/Projects";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
