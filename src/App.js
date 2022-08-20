@@ -1,54 +1,34 @@
-import React from "react";
-import {  Route, Routes, } from "react-router-dom";
-import Header from "./components/header/Header";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Projects from "./components/projects/Projects";
-import "./styles.css";
-import "./home.css";
-import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import React from 'react';
 
+// import components
+import Header from './components/Header';
+import Hero from './components/Hero';
+//import Brands from './components/Brands';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
+import BackTopBtn from './components/BackTopBtn';
 
-export default function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Routes>
-       
-        <Route path="/" element={<Header/>}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-        </Route>
-        
-      </Routes>
-      
-    </div>
-  );
-}
-
-const Home = () => {
-  const imagePath = "url(" + require("./profile3.jpg") + ")";
-  return (
-    <div className="hero">
-      <div className="image" style={{ backgroundImage: imagePath }} />
-      <h1>Hi, I'am</h1>
-      <h1>Ayesiza Hawah</h1>
-      <h4>| Software Developer |</h4>
-      <div className="social-media">
-        <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          <FaInstagram className="icon" style={{color:"#DA9F11"}}  />
-        </a>
-        <a href="https://www.linkedin.com/in/ayesiza-hawah-339700185/">
-          <FaLinkedin className="icon" style={{color:"#DA9F11"}}  />
-        </a>
-        <a href="https://github.com/Ayesiza">
-          <FaGithub className="icon" style={{color:"#DA9F11"}}  />
-        </a>
-        <a href="https://twitter.com/hawayesiza">
-          <FaTwitter className="icon" style={{color:"#DA9F11"}} />
-        </a>
-      </div>
+    <div className='bg-white relative'>
+      <Header />
+      <Hero />
+      {/* <Brands /> */}
+      <About />
+      <Skills />
+      <Portfolio />
+      <Services />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <BackTopBtn />
     </div>
   );
 };
+
+export default App;
