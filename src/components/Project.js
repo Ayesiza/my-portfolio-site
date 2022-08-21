@@ -9,11 +9,11 @@ const Project = ({ item }) => {
       <p className="capitalize text-accent text-sm mb-3">{item.category}</p>
       <h3 className="text-2xl font-semibold capitalize mb-3">{item.name}</h3>
       <div className="flex  items-center text-center">
-      <button className="btn btn-md bg-accent mr-4 hover:bg-secondary-hover md:btn-md transition-all">
-        code
+      <button className=" p-1 mr-4  bg-accent hover:bg-orange-900 text-white ">
+        Code
       </button>
-      <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-md transition-all">
-        demo
+      <button className="p-1 bg-secondary hover:bg-orange-900 text-white">
+        Demo
       </button>
       </div>
      
