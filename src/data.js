@@ -15,7 +15,7 @@ import {
 // projects images
 import Project1 from './assets/images/admin.png';
 import Project2 from './assets/images/freeMentor.png';
-import Project3 from './assets/images/property.png';
+import Project3 from './assets/images/mypropert.png';
 import Project4 from './assets/images/restaurant.png';
 import Project5 from './assets/images/theStage.png';
 import Project6 from './assets/images/admin.png';
@@ -111,8 +111,8 @@ export const projectsData = [
     name: 'PropertyProlite',
     category: 'UI/UX design',
     description: "Property Pro Lite is a platform where people can create and/or search properties for sale",
-    code: 'https://github.com/Ayesiza/Property-Pro-lite',
-    demo: 'https://ayesiza.github.io/Property-Pro-lite/index.html',
+    code: 'https://github.com/Ayesiza/estate-site',
+    demo: 'https://myproperty.netlify.app/',
   },
   {
     id: '4',
